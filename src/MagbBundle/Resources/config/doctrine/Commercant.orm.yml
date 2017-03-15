@@ -1,0 +1,65 @@
+MagbBundle\Entity\Commercant:
+    type: entity
+    table: Commercant
+    id:
+        idcommercant:
+            type: integer
+            nullable: false
+            unsigned: false
+            id: true
+            column: idCommercant
+            generator:
+                strategy: IDENTITY
+    fields:
+        idville:
+            type: integer
+            nullable: true
+            unsigned: false
+            column: idVille
+        idsouscat:
+            type: integer
+            nullable: true
+            unsigned: false
+            column: idSousCat
+        nomcommerce:
+            type: string
+            nullable: false
+            length: 264
+            fixed: false
+            column: nomCommerce
+        adressecommercant:
+            type: string
+            nullable: true
+            length: 264
+            fixed: false
+            column: adresseCommercant
+        telcommercant:
+            type: string
+            nullable: true
+            length: 32
+            fixed: false
+            column: telCommercant
+        faxcommercant:
+            type: string
+            nullable: true
+            length: 32
+            fixed: false
+            column: faxCommercant
+        description:
+            type: string
+            nullable: true
+            length: 264
+            fixed: false
+        emailcommercant:
+            type: string
+            nullable: true
+            length: 264
+            fixed: false
+            column: emailCommercant
+        sitecommerce:
+            type: string
+            nullable: true
+            length: 132
+            fixed: false
+            column: siteCommerce
+    lifecycleCallbacks: {  }

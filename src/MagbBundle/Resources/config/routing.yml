@@ -1,7 +1,0 @@
-magb_categorie:
-    resource: "@MagbBundle/Resources/config/routing/categorie.yml"
-    prefix:   /categorie
-
-magb_homepage:
-    path:     /
-    defaults: { _controller: MagbBundle:Default:index }
